@@ -1,0 +1,29 @@
+name: hockey_floor_game
+publish_to: 'none'
+description: Hockey floor game MVP with CV-based puck tracking.
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.12.0+1
+  flame: ^1.37.0
+  opencv_dart: ^2.2.1+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+hooks:
+  user_defines:
+    dartcv4:
+      include_modules:
+        - imgproc
