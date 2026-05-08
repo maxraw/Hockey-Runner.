@@ -1,4 +1,0 @@
-Добавь в ios/Runner/Info.plist внутри <dict>:
-
-<key>NSCameraUsageDescription</key>
-<string>Камера нужна для распознавания игрового поля и движения хоккейной шайбы.</string>
