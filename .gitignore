@@ -1,0 +1,33 @@
+node_modules/
+.expo/
+dist/
+web-build/
+ios/
+android/
+*.log
+.DS_Store
+
+# Local dependencies and caches
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# iOS / Xcode generated
+ios/Pods/
+ios/build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Android generated
+android/.gradle/
+android/app/build/
+android/build/
+
+# Logs and local files
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+.env
